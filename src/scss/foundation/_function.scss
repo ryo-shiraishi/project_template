@@ -1,0 +1,8 @@
+@function calcRem( $size ) {
+  @return  ( $size / 16px ) * 1rem;
+}
+
+@function calcGrid( $size ) {
+  $col_num: 12;
+  @return ( ( 100% / $col_num * $size ) );
+}
