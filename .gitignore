@@ -1,2 +1,5 @@
 .DS_Store
 /node_modules/
+
+/dest/css/style.css
+/dest/js/bundle.js
